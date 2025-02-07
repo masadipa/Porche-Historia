@@ -1,0 +1,128 @@
+/* Reset CSS */
+* {
+    margin: -1px;
+    padding: -1px;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-variant: normal;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/* Main content styling */
+main section {
+    margin-bottom: 2rem;
+}
+
+/* Image styling */
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease-in-out;
+    margin: auto;
+    align-content: center;
+}
+
+img:hover {
+    transform: scale(1.04);
+}
+
+a:link, a:visited {
+    background-color:  #333333;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+    text-align: center;
+  }
+/* List and link styling */
+h2, h3, h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    text-align: center;
+}
+
+a:hover {
+    text-align: center;
+    color: #000000;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    align-items:  center;
+}
+h5{
+    color: #000000;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+h6{
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}
